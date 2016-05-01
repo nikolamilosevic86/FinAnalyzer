@@ -20,7 +20,7 @@ Analysis of news can be also important part of the decision and it could be usef
 ![alt tag](https://github.com/nikolamilosevic86/FinAnalyzer/blob/master/img/Screen1.png)
 ##How it works?
 
-At the moment the FinAnalizer obtains data from the API provided by Yahoo! Finance. News titles are obtained by using rss feed from the Yahoo! Finance as well. 
+At the moment the FinAnalizer obtains data from the API provided by Yahoo! Finance. News titles are obtained by using rss feed from the Yahoo! Finance as well. To the input field should be imputed symbol of the company at the stockmarket (in the future, company name will be possible as well). 
 
 We have automatic analyst of technical indicators that is based on Random Forests machine learning algorithm. Analyst based on 8 indicators and machine learning should be able to predict whether a price will move up at least 10% (he will say "Buy" in that case) over the period of one year in 71% of cases. Indicators that are used by analyst are:
 * Market Capitalization
