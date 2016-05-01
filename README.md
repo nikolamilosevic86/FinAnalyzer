@@ -1,5 +1,6 @@
 # FinAnalyzer
 **Motto:** Making investing easy!
+
 **Short description:** Tool for technical analysis of financial data about companies indexed on the stockmarket using machine learning
 
 ##Introduction
