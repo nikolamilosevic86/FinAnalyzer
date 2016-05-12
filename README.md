@@ -65,6 +65,13 @@ News can be retrieved using the following function:
 At the end classification using our model can be done using following function after the data is obtained using getData:
 `public String Classify()`
 
+##Mailing list
+- To post on your mailing list, simply send email to finanalyzer@freelists.org.
+
+- Subscribers can join your list by sending email to finanalyzer-request@freelists.org with 'subscribe' in the Subject field OR by visiting your list page at http://www.freelists.org/list/finanalyzer. 
+
+- Once subscribed, please introduce yourself and your interests.
+
 
 ##Reference
 Milosevic, Nikola. "Equity forecast: Predicting long term stock price movement using machine learning." arXiv preprint arXiv:1603.00751 (2016). http://arxiv.org/abs/1603.00751
