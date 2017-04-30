@@ -171,17 +171,18 @@ public class DataCollector {
 			for(int j = 0;j<children.getLength();j++)
 			{
 				switch(j){
-				case 0:
+				case 9:
 					item.Title = children.item(j).getTextContent();
 					break;
-				case 1:
+				case 5:
 					item.URL =  children.item(j).getTextContent();
 					break;
-				case 2://description
+				case 1://description
+					item.Description = children.item(j).getTextContent();
 					break;
 				case 3://guid
 					break;
-				case 4:
+				case 7:
 					item.DatePublished =  children.item(j).getTextContent();
 					break;
 				}
