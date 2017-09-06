@@ -3,7 +3,7 @@
 
 **Short description:** Tool for technical analysis of financial data about companies indexed on the stockmarket using machine learning
 
-##Introduction
+## Introduction
 
 FinAnalyzer is a tool and library that is supposed to make investment easy. However, it should not be used as only tool for financial analysis and we are not liable of any profit or loss made by users (see also disclaimer section). The aim of the tool is to provide easy access to the openly available information about companies indexed on the stock market and to provide an platform for analysis of these financial information. Two areas of analysis are identified - **technical** and **event** based. 
 
@@ -20,7 +20,7 @@ Analysis of news can be also important part of the decision and it could be usef
 ![alt tag](https://github.com/nikolamilosevic86/FinAnalyzer/blob/master/img/Screen1.png)
 
 
-##How it works?
+## How it works?
 
 At the moment the FinAnalizer obtains data from the API provided by Yahoo! Finance. News titles are obtained by using rss feed from the Yahoo! Finance as well. To the input field should be imputed symbol of the company at the stockmarket (in the future, company name will be possible as well). 
 
@@ -36,7 +36,8 @@ We have automatic analyst of technical indicators that is based on Random Forest
 
 As we said we obtain news from the feed at Yahoo! Finance. They can be clicked and browser will fully open them.
 
-##As library
+## As library
+
 Most of the actions application can perform can be used in library settings. Class DataCollector provides means for collecting currently 20 values:
 * Company Name (Name)
 * Symbol (symbol)
@@ -67,7 +68,7 @@ News can be retrieved using the following function:
 At the end classification using our model can be done using following function after the data is obtained using getData:
 `public String Classify()`
 
-##Mailing list
+## Mailing list
 - To post on your mailing list, simply send email to finanalyzer@freelists.org.
 
 - Subscribers can join your list by sending email to finanalyzer-request@freelists.org with 'subscribe' in the Subject field OR by visiting your list page at http://www.freelists.org/list/finanalyzer. 
@@ -75,13 +76,13 @@ At the end classification using our model can be done using following function a
 - Once subscribed, please introduce yourself and your interests.
 
 
-##Reference
+## Reference
 Milosevic, Nikola. "Equity forecast: Predicting long term stock price movement using machine learning." arXiv preprint arXiv:1603.00751 (2016). http://arxiv.org/abs/1603.00751
 
-##Contact
+## Contact
 If you have any questions regarding the project, paper or would like to contribute, do not hesitate to contact me over the email: nikola.milosevic86 [at] gmail [dot] com.
 
-##Disclaimer
+## Disclaimer
 The information appearing within this software do not constitute financial advice and are provided for general information purposes only. No warranty, whether express or implied is given in relation to such materials. We can not be held liable for any technical, financial or other errors or omissions within the information provided withing this software. We accept no liability whatsoever for any loss or damage arising from the use of this software or our web content, whether or not such loss or damage is caused by reason of negligence.
 
 
