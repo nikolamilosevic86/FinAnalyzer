@@ -20,7 +20,7 @@ Analysis of news can be also important part of the decision and it could be usef
 ![alt tag](https://github.com/nikolamilosevic86/FinAnalyzer/blob/master/img/Screen1.png)
 
 
-## How it works?
+## How does it work?
 
 At the moment the FinAnalizer obtains data from the API provided by Yahoo! Finance. News titles are obtained by using rss feed from the Yahoo! Finance as well. To the input field should be imputed symbol of the company at the stockmarket (in the future, company name will be possible as well). 
 
